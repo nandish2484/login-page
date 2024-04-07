@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.reg{
+    color: red;
+    margin-top: -30px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+.login{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(wp.jpg);
+    background-size: cover;
+}
+
+
+.main{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, .5);
+    height: 456px;
+    border-radius: 17px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    background-color: transparent;
+}
+
+.left{
+    width: 200px;
+    height: 456px;
+    border-top-left-radius: 17px; 
+    border-bottom-left-radius: 17px; 
+    background-image: url(spiderman.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.right{
+    
+    width: 400px;
+    height: 456px;
+    display: flex;
+}
+
+.loginreg{
+    font-size: 20px;
+    margin-top: 20%;
+    margin-left: 22%;
+    margin-bottom: 350px;
+    
+}
+
+.login{
+    color: blue ;
+}
+
+.email{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+.mailbox{
+    width: 75%;
+    height: 100%;
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.587);
+    border-radius: 3px;
+    padding: 6px 0px 10px 5px;
+    margin-top: 15px;
+    color: white;
+}
+.password{
+    color: white;
+    font-size: 16px;
+    margin-top: 7px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+   
+}
+
+.passwordbox{
+    width: 75%;
+    height: 100%;
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.587);
+    border-radius: 3px;
+    padding: 6px 0px 10px 5px;
+    margin-top: 15px;
+    color: white;
+    
+    
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+
+.check{
+    background: transparent;
+    border: 0.5px solid rgba(255, 255, 255, 0.587);
+    border-radius: 3px;
+    padding: 6px 0px 10px 5px;
+    margin-top: 10px;
+}
+
+.a{
+    display: flex;
+}
+
+.textcheck{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+h5 span{
+    display: block;
+}
+
+.btn{
+    width: 75%;
+    height: 30px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+ 
+
+.textop{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 19%;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.icons{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.mailbox::placeholder {
+    color:white; /* Change this to your desired color */
+}
+
+.inside1{
+    color: yellowgreen;
+}
+
+.inside2{
+    color: yellowgreen;
+}
+
